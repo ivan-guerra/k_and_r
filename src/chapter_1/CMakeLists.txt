@@ -28,6 +28,7 @@ set(TARGET_NAMES
     ex_1_21
     ex_1_22
     ex_1_23
+    ex_1_24
 )
 
 foreach(NAME ${TARGET_NAMES})
