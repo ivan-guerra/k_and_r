@@ -5,3 +5,4 @@ project(chapter_6 DESCRIPTION "Chapter 6"
 )
 
 add_subdirectory(ex_6_1)
+add_subdirectory(ex_6_2)
