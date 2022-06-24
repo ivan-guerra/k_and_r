@@ -20,7 +20,7 @@ EXE_NAME="$1"
 
 # Parse the chapter number out of the executable name. The chapter number
 # is always the decimal number between the '_' characters in the executable
-# name. For example, given the name 'exe_123_1', the statement below will set
+# name. For example, given the name 'ex_123_1', the statement below will set
 # CHAPTER_NUM=123
 CHAPTER_NUM=$(echo ${EXE_NAME} | sed -n "s/^.*_\([0-9]\+\)_.*$/\1/p")
 

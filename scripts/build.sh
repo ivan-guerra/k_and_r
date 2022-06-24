@@ -1,12 +1,12 @@
 #!/bin/bash
 
-# This script builds all K&R code exercise solutions. build.sh can process a
-# number of commandline parameters. Run 'build.sh -h' to see all the options.
+# This script builds all K&R exercise solutions. build.sh can process a
+# number of command line options. Run 'build.sh -h' to see all the options.
 
 # Print a help message to the console.
 Help()
 {
-    echo "Build the K&R exercise solutions."
+    echo "Build K&R solutions."
     echo
     echo "usage: build.sh [OPTION]..."
     echo "options:"
