@@ -11,7 +11,7 @@ int main(void)
 {
     char dst[SIZE] = {'h', 'e', 'l', 'l', 'o', '\0'};
     const char *src = "world";
-    size_t n = strlen(src);
+    size_t n = strlen(src) + 1;
 
     printf("strncpy(dst=%s, src=%s, n=%lu) = ", dst, src, n);
     printf("%s\n", strncpy(dst, src, n));
