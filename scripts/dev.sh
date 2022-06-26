@@ -5,7 +5,7 @@
 # permissions and will mount the project directory as a volume under /k_and_r.
 # The idea here is that you can edit files on a host PC in your IDE of
 # choice. When you are ready to build/run, execute this launch script and
-# build/run cosmo from within the container.
+# build/run the solutions from within the container.
 
 # Source the project configuration.
 source config.sh
